@@ -2,13 +2,12 @@
 
 # Trabalho AEDS|CEFET
 :small_blue_diamond: [Sobre](#Sobre)
-2. [Pré requisitos](#Pré-requisitos)
-3. [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
+:small_blue_diamond: [Pré requisitos](#Pré-requisitos)
+:small_blue_diamond: [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
     
-    [Menu](#Menu)
-    
-    [Abertura dos arquivos](#Abertura-da-pasta)
-4. [Como usar](#como-usar)
+ [Menu](#Menu) 
+ [Abertura dos arquivos](#Abertura-da-pasta)
+:small_blue_diamond: [Como usar](#como-usar)
     
 
 
