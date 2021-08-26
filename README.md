@@ -2,17 +2,17 @@
 
 # Trabalho AEDS|CEFET
 <!--ts-->
-* [Sobre](#Sobre)
+:point_right: [Sobre](#Sobre)
 
-* [Pré requisitos](#Pré-requisitos)
+:point_right [Pré requisitos](#Pré-requisitos)
 
-* [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
+*  [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
 	
 	* [Menu](#Menu) 
 	
 	* [Abertura dos arquivos](#Abertura-da-pasta)
  
-* [Como usar](#como-usar)
+:point_right [Como usar](#como-usar)
  <!--te-->  
 
 
