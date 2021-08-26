@@ -5,11 +5,9 @@
 
 :point_right: [Pré requisitos](#Pré-requisitos)
 
-:point_right: [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
-    
-  :point_right:[Menu](#Menu) 
- 
-  :point_right:[Abertura dos arquivos](#Abertura-da-pasta)
+:point_right: [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
+  	[Menu](#Menu) 
+  	[Abertura dos arquivos](#Abertura-da-pasta)
  
 :point_right: [Como usar](#como-usar)
     
