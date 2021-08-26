@@ -6,7 +6,7 @@
 
 * [Pré requisitos](#Pré-requisitos)
 
-* [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
+* [Execução dos testes | Descrição do Programa](#Execução-dos-testes-gear)    
 	
 	* [Menu](#Menu) 
 	
@@ -24,7 +24,7 @@
 
 <p>[Informar modo de execução] <p>
 
-## Execução dos testes
+## Execução dos testes :gear:
 <p>Execução do programa a partir do arquivo 'teste' presente no repositório<p>
 
 ![insira](https://user-images.githubusercontent.com/78819692/131023845-99c5d825-d755-445f-aaaf-d6f2bd08b7f5.png)
