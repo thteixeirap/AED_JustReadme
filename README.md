@@ -2,7 +2,7 @@
 
 # Trabalho AEDS|CEFET
 <!--ts-->
-* [Sobre](#Sobre)
+* [Sobre](#rockey-Sobre)
 
 * [Pré requisitos](#Pré-requisitos)
 
@@ -16,7 +16,7 @@
  <!--te-->  
 
 
-## Sobre :rocket:
+## :rocket: Sobre 
 
   <p>Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos <p>
 
