@@ -1,16 +1,19 @@
 
 
 # Trabalho AEDS|CEFET
-[Sobre](#Sobre)
+<!--ts-->
+* [Sobre](#Sobre)
 
-[Pré requisitos](#Pré-requisitos)
+* [Pré requisitos](#Pré-requisitos)
 
-[Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
-	[Menu](#Menu) 
-	[Abertura dos arquivos](#Abertura-da-pasta)
+* [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
+	
+	* [Menu](#Menu) 
+	
+	* [Abertura dos arquivos](#Abertura-da-pasta)
  
-[Como usar](#como-usar)
-    
+* [Como usar](#como-usar)
+ <!--te-->  
 
 
 ## Sobre
