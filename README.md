@@ -4,7 +4,7 @@
 <!--ts-->
 * [Sobre](#Sobre-rockey)
 
-* [Pré requisitos](#Pré-requisitos)
+* [Pré requisitos](#Pré-requisitos-computer)
 
 * [Execução dos testes | Descrição do Programa](#Execução-dos-testes-gear)    
 	
@@ -20,7 +20,7 @@
 
   <p>Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos <p>
 
-## Pré-requisitos
+## Pré-requisitos :computer:
 
 <p>[Informar modo de execução] <p>
 
