@@ -10,7 +10,7 @@
 	
 	* [Menu](#Menu) 
 	
-	* [Abertura dos arquivos](#Abertura-da-pasta)
+	* [Abertura dos arquivos](#Abertura-da-pasta-dos-arquivos)
  
 * [Como usar](#como-usar)
  <!--te-->  
@@ -32,7 +32,7 @@
 <p>Após a abertura do arquivo .txt no qual contém os ID's e nomes dos mercados cadastrados, o programa realiza a tokenização dos nomes de cada mercado presente, (no qual contém um arquivo .txt para cada um com os dados dos produto) e faz o encaminhamento para a pasta Mercados e realiza a leitura desses arquivos.<p>
 
 	
-### Abertura da pasta dos arquivos separados a partir do arquivo inserido. ( Função Recebe_Mercados )
+### Abertura da pasta dos arquivos. ( Função Recebe_Mercados )
 	
 ```sh
     char cwd[MAX_TAM];
