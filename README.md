@@ -1,15 +1,14 @@
 
 
 # Trabalho AEDS|CEFET
-:point_right: [Sobre](#Sobre)
+[Sobre](#Sobre)
 
-:point_right: [Pré requisitos](#Pré-requisitos)
-
-:point_right: [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
-  		[Menu](#Menu) 
-  		[Abertura dos arquivos](#Abertura-da-pasta)
+[Pré requisitos](#Pré-requisitos)
+[Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
+  	[Menu](#Menu) 
+  	[Abertura dos arquivos](#Abertura-da-pasta)
  
-:point_right: [Como usar](#como-usar)
+[Como usar](#como-usar)
     
 
 
