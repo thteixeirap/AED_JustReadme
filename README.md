@@ -7,9 +7,9 @@
 
 :small_blue_diamond: [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
     
- [Menu](#Menu) 
+ 	[Menu](#Menu) 
  
- [Abertura dos arquivos](#Abertura-da-pasta)
+ 	[Abertura dos arquivos](#Abertura-da-pasta)
  
 :small_blue_diamond: [Como usar](#como-usar)
     
