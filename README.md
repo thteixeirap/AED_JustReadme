@@ -25,7 +25,7 @@
 
 <p>Após a abertura do arquivo .txt no qual contém os ID's e nomes dos mercados cadastrados, o programa realiza a tokenização dos nomes de cada mercado presente, (no qual contém um arquivo .txt para cada um com os dados dos produto) e faz o encaminhamento para a pasta Mercados e realiza a leitura desses arquivos.<p>
 
-```
+```sh
     char cwd[MAX_TAM];
 	getcwd(cwd, sizeof(cwd));
     char txt[MAX]=".txt";
