@@ -8,9 +8,9 @@
 
 * [Execução dos testes | Descrição do Programa](#Execução-dos-testes-gear)    
 	
-	* [Menu](#Menu) 
-	
 	* [Abertura dos arquivos](#Abertura-da-pasta-dos-arquivos)
+
+	* [Menu](#Menu) 
  
 * [Como usar](#como-usar)
  <!--te-->  
