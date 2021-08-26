@@ -35,16 +35,16 @@
 Usando a função getcwd pertencente a biblioteca <unistd.h>, pegamos o caminho do diretório no qual encontra a pasta do projeto e armazenamos na variavel cwd. 
 	
 ```sh
-	   int opera=0;
+	int opera=0;
     	char *token;
     	char leitor[MAX_TAM];
 	
 	while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
 	{
-		char abre_mercado[MAX_TAM];
+	char abre_mercado[MAX_TAM];
         strcpy(abre_mercado,cwd);
         strcat(abre_mercado,"\\Mercados\\");
-		token=strtok(leitor,"->");
+	token=strtok(leitor,"->");
 
         while(token!=NULL)
         {        
@@ -78,7 +78,7 @@ Usando a função getcwd pertencente a biblioteca <unistd.h>, pegamos o caminho 
 		cont_mercados++;	
 	}
 ```  
-    
+    Dentro do primeiro While iremos ler todo conteúdo do arquivo inserido (teste), no qual foi utilizado na tokenização o separador "->".
 	
 ### Menu 
 
