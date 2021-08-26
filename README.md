@@ -7,7 +7,7 @@
     
     [Menu](#Menu)
     
-    [Abertura dos arquivos](#Abertura)
+    [Abertura dos arquivos](#Abertura da pasta dos arquivos separados)
 4. [Como usar](#como-usar)
     
 
