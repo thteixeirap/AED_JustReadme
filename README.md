@@ -25,44 +25,14 @@
 
 <p>Após a abertura do arquivo .txt no qual contém os ID's e nomes dos mercados cadastrados, o programa realiza a tokenização dos nomes de cada mercado presente, (no qual contém um arquivo .txt para cada um com os dados dos produto) e faz o encaminhamento para a pasta Mercados e realiza a leitura desses arquivos.<p>
 
+	
+- Abertura da pasta dos arquivos separados a partir do arquivo inserido.
+	
 ```sh
     char cwd[MAX_TAM];
 	getcwd(cwd, sizeof(cwd));
-    char txt[MAX]=".txt";
-    strcat(arquivo_mercados,txt);
-    
-    FILE *f_Mercados;
-    f_Mercados=NULL;
-    while(f_Mercados==NULL)//Abre o arquivo com o nome dos mercados
-    {    
-    	f_Mercados=fopen(arquivo_mercados,"rt");
-    	
-        if(f_Mercados!=NULL)
-        {
-            printf("\n\n");
-            printf( "      @@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
-            printf( "      @                          @\n");
-            printf( "      @      ARQUIVO ABERTO      @\n");
-            printf( "      @                          @\n");
-            printf( "      @@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
-        }
-        else
-        {
-            printf("\n\n");
-            printf( "      @@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
-            printf( "      @                          @\n");
-            printf( "      @  ARQUIVO NAO ENCONTRADO  @\n");
-            printf( "      @                          @\n");
-            printf( "      @@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\n");
-            fflush(stdin);
-            printf("      INSIRA UM NOME PARA O ARQUIVO COM A INFORMACAO DOS MERCADOS -> ");
-            fflush(stdin);
-            gets(arquivo_mercados);
-            strcat(arquivo_mercados,txt);
-        }
-    }
 ```
-    
+Usando a função getcwd pertencente a biblioteca <unistd.h>, pegamos o caminho do diretório no qual encontra a pasta do projeto e armazenamos na variavel cwd. 
     
     
 ### Menu 
