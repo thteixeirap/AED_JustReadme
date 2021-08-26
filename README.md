@@ -1,17 +1,17 @@
 
 
 # Trabalho AEDS|CEFET
-:small_blue_diamond: [Sobre](#Sobre)
+:point_right: [Sobre](#Sobre)
 
-:small_blue_diamond: [Pré requisitos](#Pré-requisitos)
+:point_right: [Pré requisitos](#Pré-requisitos)
 
-:small_blue_diamond: [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
+:point_right: [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
     
-  :small_blue_diamond:[Menu](#Menu) 
+  :point_right:[Menu](#Menu) 
  
-  :small_blue_diamond:[Abertura dos arquivos](#Abertura-da-pasta)
+  :point_right:[Abertura dos arquivos](#Abertura-da-pasta)
  
-:small_blue_diamond: [Como usar](#como-usar)
+:point_right: [Como usar](#como-usar)
     
 
 
