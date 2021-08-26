@@ -4,15 +4,15 @@
 <!--ts-->
 :point_right: [Sobre](#Sobre)
 
-:point_right [Pré requisitos](#Pré-requisitos)
+:point_right: [Pré requisitos](#Pré-requisitos)
 
-*  [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
+* :point_right [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
 	
 	* [Menu](#Menu) 
 	
 	* [Abertura dos arquivos](#Abertura-da-pasta)
  
-:point_right [Como usar](#como-usar)
+:point_right: [Como usar](#como-usar)
  <!--te-->  
 
 
