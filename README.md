@@ -1,7 +1,7 @@
 
 
 # Trabalho AEDS|CEFET
-1. [Sobre](#Sobre)
+:small_blue_diamond: [Sobre](#Sobre)
 2. [Pré requisitos](#Pré-requisitos)
 3. [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
     
@@ -12,7 +12,7 @@
     
 
 
- ! Sobre
+## Sobre
 
   <p>Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos <p>
 
