@@ -3,7 +3,7 @@
 # Trabalho AEDS|CEFET
 1. [Sobre](#Sobre)
 2. [Pré requisitos](#Pré-requisitos)
-3. [Execução dos testes](#Execução-dos-testes)
+3. [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
     
     [Menu](#Menu)
 4. [Como usar](#como-usar)
@@ -23,6 +23,7 @@
 
 ![insira](https://user-images.githubusercontent.com/78819692/131023845-99c5d825-d755-445f-aaaf-d6f2bd08b7f5.png)
 
+    <p>Após a abertura do arquivo .txt no qual contém os ID's e nomes dos mercados cadastrados, <p>
 
 ### Menu 
 
