@@ -4,9 +4,10 @@
 [Sobre](#Sobre)
 
 [Pré requisitos](#Pré-requisitos)
+
 [Execução dos testes | Descrição do Programa](#Execução-dos-testes)    
-  	[Menu](#Menu) 
-  	[Abertura dos arquivos](#Abertura-da-pasta)
+	[Menu](#Menu) 
+	[Abertura dos arquivos](#Abertura-da-pasta)
  
 [Como usar](#como-usar)
     
