@@ -6,6 +6,7 @@
 3. [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
     
     [Menu](#Menu)
+    [Abertura dos arquivos](#Abertura)
 4. [Como usar](#como-usar)
     
 
