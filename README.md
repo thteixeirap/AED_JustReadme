@@ -99,3 +99,5 @@
 ![Menu](https://user-images.githubusercontent.com/78819692/131042136-760cca43-21f5-4084-a0d6-8f1ee5d4e029.png)
 
 :point_right: Opção 1:
+	
+<p>O usuário insere produto por produto, no qual será avaliado o de melhor preço entre os mercados cadatrados e adicionado em sua lista de compras<p>
