@@ -6,6 +6,7 @@
 3. [Execução dos testes | Descrição do Programa](#Execução-dos-testes)
     
     [Menu](#Menu)
+    
     [Abertura dos arquivos](#Abertura)
 4. [Como usar](#como-usar)
     
@@ -27,7 +28,7 @@
 <p>Após a abertura do arquivo .txt no qual contém os ID's e nomes dos mercados cadastrados, o programa realiza a tokenização dos nomes de cada mercado presente, (no qual contém um arquivo .txt para cada um com os dados dos produto) e faz o encaminhamento para a pasta Mercados e realiza a leitura desses arquivos.<p>
 
 	
-- Abertura da pasta dos arquivos separados a partir do arquivo inserido. ( Função Recebe_Mercados )
+### Abertura da pasta dos arquivos separados a partir do arquivo inserido. ( Função Recebe_Mercados )
 	
 ```sh
     char cwd[MAX_TAM];
