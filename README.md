@@ -75,10 +75,13 @@ Usando a função getcwd pertencente a biblioteca <unistd.h>, pegamos o caminho 
         strcat(abre_mercado,m[cont_mercados].nome_mercado);
         strcat(abre_mercado,txt);
         Recebe_Produto(&m[cont_mercados],abre_mercado);
-		cont_mercados++;	
+	cont_mercados++;	
 	}
 ```  
-    Dentro do primeiro While iremos ler todo conteúdo do arquivo inserido (teste), no qual foi utilizado na tokenização o separador "->".
+<p>Dentro do primeiro While iremos ler todo conteúdo do arquivo inserido (teste), no qual foi utilizado na tokenização o separador "->". A variável "abre_mercado" recebe cwd e é adicionado "\\Mercaodos\\" no final dessa string, tendo assim salva o endereço dentro da pasta Mercados.
+O segundo While varre linha por linha do arquivo, sendo sempre o primeiro token o ID e o segundo token o nome do mercado, adicionando ambos em uma lista estática.
+Ao final do primeiro While, é adicionado a variavel em que contém o endereço da pasta Mercados o nome do mercado e o .txt, tendo assim o endereço do arquivo .txt dos dados mercado de cada um
+<p>
 	
 ### Menu 
 
