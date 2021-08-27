@@ -108,8 +108,11 @@
 :point_right: Opção 2:
 	
 <p>O usuário entra com o arquivo .txt com os nomes dos produtos escolhidos para a seleção de melhor preço <p>
+	
 ![op2](https://user-images.githubusercontent.com/78819692/131122060-23e9a0e6-e378-4dc0-8fb9-a1094c3d9b5a.png)
+	
 #### Exemplo Lista 
+	
 ![listacompra](https://user-images.githubusercontent.com/78819692/131122233-194ddf01-169f-4094-847a-0ac6f75f861b.png)
 
 	
