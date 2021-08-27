@@ -12,7 +12,7 @@
 
 	* [Menu](#Menu) 
  
-* [Como usar](#como-usar)
+* [Custo computacional](#Custo-computacional)
  <!--te-->  
 
 
@@ -104,4 +104,6 @@
 	
 - Procura pelo melhor preço:
 <p>A função Consulta_Menor_Preco<p>
+	
+## Custo computacional
 	
