@@ -117,5 +117,8 @@
 	
 <p>É utilizado no final de cada item da lista o separador ->, no qual servirá de auxilio na execução da tokenização desse arquivo<p>
 	
+:point_right: Opção 3:
+	
+	
 ## Custo computacional
 	
