@@ -101,6 +101,7 @@
 :point_right: Opção 1:
 	
 <p>O usuário insere produto por produto, no qual será avaliado o de melhor preço entre os mercados cadastrados e adicionado em sua lista de compras (Lista dinâmica)<p>
+	
 - Procura pelo melhor preço:
 <p>A função Consulta_Menor_Preco<p>
 	
