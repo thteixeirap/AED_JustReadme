@@ -114,7 +114,8 @@
 #### Exemplo Lista 
 	
 ![listacompra](https://user-images.githubusercontent.com/78819692/131122233-194ddf01-169f-4094-847a-0ac6f75f861b.png)
-
+	
+<p>É utilizado no final de cada item da lista o separador ->, no qual servirá de auxilio na execução da tokenização desse arquivo<p>
 	
 ## Custo computacional
 	
