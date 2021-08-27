@@ -103,7 +103,7 @@
 <p>O usuário insere produto por produto, no qual será avaliado o de melhor preço entre os mercados cadastrados e adicionado em sua lista de compras (Lista dinâmica)<p>
 	
 - Procura pelo melhor preço:
-<p>A função Consulta_Menor_Preco<p>
+<p>A função Consulta_Menor_Preco é realizada usando o método _QuickShort_ <p>
 	
 ## Custo computacional
 	
