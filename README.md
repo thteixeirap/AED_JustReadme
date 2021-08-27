@@ -127,7 +127,7 @@
 ### Exemplo da LISTA DE COMPRAS gerado a partir da Lista inserida na opção 2:
 	
 
-<img src="https://user-images.githubusercontent.com/78819692/131125390-f90bbe4a-5bf2-4c56-b9f4-7cdd84f7dbe9.png" width="200">
+<img src="https://user-images.githubusercontent.com/78819692/131125390-f90bbe4a-5bf2-4c56-b9f4-7cdd84f7dbe9.png" width="400">
 	
 ## Custo computacional
 	
