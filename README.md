@@ -7,7 +7,7 @@
 
 * [Pré requisitos](#computer-Pré-requisitos)
 
-* [Execução dos testes | Descrição do Programa](#Execução-dos-testes-gear)    
+* [Execução dos testes | Descrição do Programa](#gear-Execução-dos-testes)    
 	
 	* [Abertura dos arquivos](#Abertura-da-pasta-dos-arquivos)
 
@@ -17,7 +17,7 @@
  <!--te-->  
 
 
-## :rocket: Sobre 
+## :rocket: Sobre
 
   <p>Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos <p>
 
@@ -25,7 +25,7 @@
 
 <p>[Informar modo de execução] <p>
 
-## Execução dos testes :gear:
+## :gear: Execução dos testes
 <p>Execução do programa a partir do arquivo 'teste' presente no repositório<p>
 
 ![insira](https://user-images.githubusercontent.com/78819692/131023845-99c5d825-d755-445f-aaaf-d6f2bd08b7f5.png)
