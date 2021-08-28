@@ -1,5 +1,3 @@
-
-
 <p>:construction: EM CONSTRUÇÃO :construction: <p>
 
 
@@ -106,7 +104,7 @@
 <p>O usuário insere produto por produto, no qual será avaliado o de melhor preço entre os mercados cadastrados e adicionado em sua lista de compras (Lista dinâmica)<p>
 	
 - Procura pelo melhor preço:
-<p>A função Consulta_Menor_Preco é realizada usando o método<p> **QuickShort**<p>, no qual sempre após encontrando o produto de menor custo entre os mercados cadastrados, adiciona na lista de compras no fim do método<p>
+<p>A função Consulta_Menor_Preco é realizada usando o método **QuickShort**, no qual sempre após encontrando o produto de menor custo entre os mercados cadastrados, adiciona na lista de compras no fim do método<p>
 	
 :point_right: Opção 2:
 	
@@ -130,4 +128,3 @@
 <img src="https://user-images.githubusercontent.com/78819692/131125390-f90bbe4a-5bf2-4c56-b9f4-7cdd84f7dbe9.png" width="400">
 	
 ## Custo computacional
-	
