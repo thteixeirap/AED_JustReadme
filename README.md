@@ -13,7 +13,7 @@
 
 	* [Menu](#Menu) 
  
-* [Custo computacional](#Custo-computacional)
+* [Custo computacional](#wrench-Custo-computacional)
  <!--te-->  
 
 
@@ -127,4 +127,4 @@
 
 <img src="https://user-images.githubusercontent.com/78819692/131125390-f90bbe4a-5bf2-4c56-b9f4-7cdd84f7dbe9.png" width="400">
 	
-## Custo computacional
+## :wrench: Custo computacional
