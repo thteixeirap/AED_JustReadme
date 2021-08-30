@@ -1,8 +1,9 @@
 :construction: EM CONSTRUÇÃO :construction: 
 
 
-<center> # Trabalho AEDS|CEFET  </center>
-
+<div align="center">
+ # Trabalho AEDS|CEFET 
+</div>
 <p align="center"
 
 	
