@@ -129,6 +129,7 @@
 	
 ## :wrench: Custo computacional
 	
+ - Leitura inicial dos arquivos mercados cadastrados.
 
 ```sh
  while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
