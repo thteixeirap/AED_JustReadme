@@ -192,7 +192,7 @@
 	
    
 
-:exclamation: Trecho de código pertencente a função <strong>Recebe_Produto</strong>:
+:exclamation: Trecho de código pertencente a função `Recebe_Produto`:
 	
 ```sh
 while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de produtos em cada mercado)
