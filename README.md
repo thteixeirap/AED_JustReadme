@@ -173,4 +173,4 @@
 	}
 ```
 	
-<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no <strong>primeiro While<strong> N loops a serem processados. No segundo loop, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha). Calculando essas 3 entradas nesse while, vemos que na primeira entrada <p>
+<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no <strong>primeiro While <strong> N loops a serem processados, ou seja. No segundo loop, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando essas 3 entradas nesse while, vemos que na primeira entrada <p>
