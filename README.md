@@ -179,7 +179,7 @@
         strcat(abre_mercado,txt);  //+1
         Recebe_Produto(&m[cont_mercados],abre_mercado);  //+27
 	cont_mercados++;  //+1	
-	}//CUSTO FINAL A CADA MERCADO = 
+	}
 ```
 	
 - Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados.Em um primeiro momento, ignorando o segundo While, temos como custo computacional de 34 nesse primeiro While ( 7 com ações simples de custo singular e 27 da função Recebe_Produto, função essa a ser demostrada) Sendo igual a 34N. 
