@@ -184,11 +184,11 @@
 	}
 ```
 	
-- Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados.Em um primeiro momento, ignorando o segundo While, temos como custo computacional de N7 * 170P nesse primeiro While ( 7 com ações simples de custo singular e 170P da função `Recebe_Produto`, função essa a ser demostrada) Sendo igual a 7N*170P.
+- Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados.Em um primeiro momento, ignorando o segundo While, temos como custo computacional de N7 * 170P nesse primeiro While ( 7 com ações simples de custo singular e 170P da função `Recebe_Produto`, função essa a ser demostrada) Sendo igual a 7N*27P.
 
 - No segundo While, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando as 3 entradas nesse while, vemos que na primeira entrada (Condição do primeiro IF) teremos o custo de +7, na segunda entrada ( Condição do 2 IF) o custo de +6 e na ultima entrada o custo de +6 somando assim um total de 19 de custo, que somado com +3 do strtok a cada loop. Portanto a cada mercado cadastrado teremos 22 de custo nesse While, que é igual a 22 <p>
 	
-- Portanto, somando esses custos, temos o custo para a leitura inicial desses arquivos de  22 * 7N * 170P = <strong>154N * 170P</strong>
+- Portanto, somando esses custos, temos o custo para a leitura inicial desses arquivos de  22 * 7N * 27P = <strong>154N * 27P</strong>
 		
    
 
@@ -233,6 +233,6 @@ while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de prod
 - Dentro da função Recebe_Produto iremos fazer a leitura dos arquivos de cada mercado cadastrado. Isolando o trecho de maior impacto no custo computacional, trecho esse que é  em função de P (sendo P o número de produtos cadastrado nesse mercado) temos o seguintes valores: No primeiro While iremos percorrer todo esse arquivo, no qual, isolando o segundo While interno a esse em um primeiro momento, temos o custo computacional de 10 ( 4 de ações singulares e 6 da função `LInserir`, função responsavel por adicionar os dados de cada produto na lista dinâmica de cada mercado).
 - Analisando o segundo While, temos que a cada produto cadastrado sera realizado 3 loops ( 3 loops pois entrará 3 tokens válidos -ID,nome e preço-). No primeiro loop( Condição válida do primeiro IF) teremos o custo de +5, no segundo loop (condição válida do segundo IF) teremos o custo de +6 e por último o else, tendo o custo de +6. Sendo assim, somamdo
 todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo de 17.
-- Portanto, somando esses custos, temos o custo para a leitura dos arquivos separado de cada mercado de 17P*10 = <strong>170P</strong>
+- Portanto, somando esses custos, temos o custo para a leitura dos arquivos separado de cada mercado de (17+10)*P = <strong>27P</strong>
 	
 :warning: A variável P foi usada para facilitação matemática, cada mercado não necessariamente precisa ter a mesma quantidade de produtos.
