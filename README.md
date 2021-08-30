@@ -129,9 +129,8 @@
 	
 ## :wrench: Custo computacional
 	
-	
-```
-```
+
+```sh
  while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
 	{
 		char abre_mercado[MAX_TAM];
@@ -172,5 +171,4 @@
 		cont_mercados++;
 		
 	}
-```
 ```
