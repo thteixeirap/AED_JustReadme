@@ -184,7 +184,7 @@
 	}
 ```
 	
-- Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados.Em um primeiro momento, ignorando o segundo While, temos como custo computacional de N7*170P nesse primeiro While ( 7 com ações simples de custo singular e 170P da função `Recebe_Produto`, função essa a ser demostrada) Sendo igual a 34N. 
+- Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados.Em um primeiro momento, ignorando o segundo While, temos como custo computacional de N7*170P nesse primeiro While ( 7 com ações simples de custo singular e 170P da função `Recebe_Produto`, função essa a ser demostrada) Sendo igual a 7N*170P.
 
 - No segundo While, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando as 3 entradas nesse while, vemos que na primeira entrada (Condição do primeiro IF) teremos o custo de +7, na segunda entrada ( Condição do 2 IF) o custo de +6 e na ultima entrada o custo de +6 somando assim um total de 19 de custo, que somado com +3 do strtok a cada loop. Portanto a cada mercado cadastrado teremos 22 de custo nesse While, que é igual a 22 <p>
 	
