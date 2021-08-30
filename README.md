@@ -143,10 +143,10 @@
 ```sh
  while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
 	{
-	char abre_mercado[MAX_TAM];
-        strcpy(abre_mercado,cwd);
-        strcat(abre_mercado,"\\Mercados\\");
-	token=strtok(leitor,"->");
+	char abre_mercado[MAX_TAM]; //+1
+        strcpy(abre_mercado,cwd); //+1
+        strcat(abre_mercado,"\\Mercados\\"); //+1
+	token=strtok(leitor,"->"); //+1
 	
         while(token!=NULL) 
         {        
@@ -175,13 +175,15 @@
             token=strtok(NULL,"->");
         }
 		
-        strcat(abre_mercado,m[cont_mercados].nome_mercado); 
-        strcat(abre_mercado,txt);
-        Recebe_Produto(&m[cont_mercados],abre_mercado); 
-	cont_mercados++;	
+        strcat(abre_mercado,m[cont_mercados].nome_mercado);  //+1
+        strcat(abre_mercado,txt);  //+1
+        Recebe_Produto(&m[cont_mercados],abre_mercado);  //+27
+	cont_mercados++;  //+1	
 	}//CUSTO FINAL A CADA MERCADO = 
 ```
 	
-<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados. No segundo loop, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando essas 3 entradas nesse while, vemos que na primeira entrada (Condição do primeiro IF) teremos o custo de +7, na segunda entrada ( Condição do 2 IF) o custo de +6 e na ultima entrada o custo de +6 somando assim um total de 19 de custo, que somado com +3 do strtok a cada loop, teremos 22 de custo nesse While. Portanto, somando o primeiro While que a cada loop tem custo de  <p>
+- Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados.Em um primeiro momento, ignorando o segundo While, temos como custo computacional de 34 nesse primeiro While ( 7 com ações simples de custo singular e 27 da função Recebe_Produto, função essa a ser demostrada). 
+
+- No segundo While, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando as 3 entradas nesse while, vemos que na primeira entrada (Condição do primeiro IF) teremos o custo de +7, na segunda entrada ( Condição do 2 IF) o custo de +6 e na ultima entrada o custo de +6 somando assim um total de 19 de custo, que somado com +3 do strtok a cada loop, teremos 22 de custo nesse While, que é igual a 22N <p>
 	
-	
+- Portanto, somando esses custos, temos o custo para a leitura inicial desses arquivos de  22N²*27 = 594N²
