@@ -139,6 +139,8 @@
 ## :wrench: Custo computacional
 	
  #### Leitura inicial dos arquivos mercados cadastrados.
+	
+:exclamation: Trecho de código pertencente a função <strong>Recebe_Mercado<strong>:	
 
 ```sh
  while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
@@ -189,6 +191,8 @@
 - Portanto, somando esses custos, temos o custo para a leitura inicial desses arquivos de  22N * 34N = <strong>748N²<strong>
 	
    
+
+:exclamation: Trecho de código pertencente a função <strong>Recebe_Produto<strong>:
 	
 ```sh
 while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de produtos em cada mercado)
