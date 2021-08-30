@@ -140,7 +140,7 @@
 	
  #### Leitura inicial dos arquivos mercados cadastrados.
 	
-:exclamation: Trecho de código pertencente a função <strong>Recebe_Mercado</strong>:	
+:exclamation: Trecho de código pertencente a função `Recebe_Mercado`:	
 
 ```sh
  while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
