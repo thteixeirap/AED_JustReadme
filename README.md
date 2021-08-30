@@ -174,4 +174,4 @@
 	}
 ```
 	
-<p> O primeiro While irá <p>
+<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro <strong>While<strong> <p>
