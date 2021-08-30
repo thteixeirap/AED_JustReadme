@@ -128,3 +128,49 @@
 <img src="https://user-images.githubusercontent.com/78819692/131125390-f90bbe4a-5bf2-4c56-b9f4-7cdd84f7dbe9.png" width="400">
 	
 ## :wrench: Custo computacional
+	
+	
+```sh	
+ while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))//Entra N vezes, N = número de mercados cadastrados
+	{
+		char abre_mercado[MAX_TAM];//1
+        strcpy(abre_mercado,cwd);//+1
+        strcat(abre_mercado,"\\Mercados\\");//+1
+		token=strtok(leitor,"->");//+1
+	```
+	```
+        while(token!=NULL) //Cada linha mercado linha irá ter 2 tokens, ID e Nome// Portanto entra 2N vezes
+        {        
+            char copia[MAX_TAM];//+1
+            strcpy(copia,token);//+1
+	```
+	```
+            if(opera==0)//+1  Primeiro pega o ID    //CUSTO TOTAL DESSE IF  = 7
+            { 
+            	int ID;   //+1             
+            	ID=atoi(copia);//+1
+                m[cont_mercados].ID_mercado=ID;//+1
+                opera++;//+1
+            }else
+            {   
+                if(opera==1)//Na segunda vez passa pelo primeiro if +1 pra depois fazer a comparação desse if = +2
+                {
+                	strcpy(m[cont_mercados].nome_mercado,token);//+1
+                	opera++;//+1
+				}//CUSTO TOTAL DESSE IF = 6
+				else
+				{ //Pra chegar nesse faz 2 comparações anteriores (+2) e 4 declaraçoes de variaveis (+4)
+					opera=0;//+1
+					break;//+1
+				}//CUSTO TOTAL DESSE ELSE = 8
+            }
+            token=strtok(NULL,"->");
+        }
+		
+        strcat(abre_mercado,m[cont_mercados].nome_mercado);//+1
+        strcat(abre_mercado,txt);//+1
+        Recebe_Produto(&m[cont_mercados],abre_mercado);
+		cont_mercados++;//+1
+		
+	}
+```
