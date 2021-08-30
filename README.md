@@ -1,9 +1,10 @@
 <p>:construction: EM CONSTRUÇÃO :construction: <p>
 
-
+  <p>Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos <p>
+	
 # Trabalho AEDS|CEFET
 <!--ts-->
-* [Sobre](#rockey-Sobre)
+* [Como funciona](#rockey-Como-funciona)
 
 * [Pré requisitos](#computer-Pré-requisitos)
 
@@ -17,9 +18,10 @@
  <!--te-->  
 
 
-## :rocket: Sobre
+## :rocket: Como funciona
 
-  <p>Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos <p>
+<p> Na pasta Mercados criasse arquvios .txt tendo como o nome desse arquvio o proprio nome do mercado e dentro desse arquivo os dados dos diferentes tipos de produtos cadastrados, com o identificador, nome e preço do mesmo. Ao iniciar o programa inserisse um arquivo contendo as informações de todos esses mercados presente nessa pasta, no qual a partir da escolha do usuário o programa irá fazer uma busca e encontrar dentre esse mercados o produto com o menor preço e apresentado para esse usuário <p>
+
 
 ## :computer: Pré-requisitos
 
