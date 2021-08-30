@@ -187,3 +187,41 @@
 - No segundo While, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando as 3 entradas nesse while, vemos que na primeira entrada (Condição do primeiro IF) teremos o custo de +7, na segunda entrada ( Condição do 2 IF) o custo de +6 e na ultima entrada o custo de +6 somando assim um total de 19 de custo, que somado com +3 do strtok a cada loop, teremos 22 de custo nesse While, que é igual a 22N <p>
 	
 - Portanto, somando esses custos, temos o custo para a leitura inicial desses arquivos de  22N * 34N = <strong>748N²<strong>
+	
+   
+	
+```sh
+while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de produtos em cada mercado)
+    {
+        int ID; 
+        float Valor;
+        char Nome[MAX_TAM];
+        token=strtok(leitor,"->");//+4
+       
+        while(token!=NULL) // ENTRA 3 tokens a cada produto (ID, nome, preço)
+        {   
+            strcpy(copia,token); 			
+            if(operador==0) 
+            {             
+                ID=atoi(copia);
+                operador++;
+            } //CUSTO PRA CHEGAR NESSE IF = +4 (strcpy, comparação, 2 açoes variavel)
+            else
+            {
+                if (operador==1)
+                {
+                    strcpy(Nome,token);                  
+                    operador++;
+                }//CUSTO PRA CHEGAR NESSE IF = +5 (strcpy, comparação 1 If,comparação 2 if,strcpy,soma)
+                else
+                {
+                    Valor=atof(copia);
+                    operador=0;
+                }//CUSTO PRA CHEGAR NESSE ELSE = +5 (strcpy, comparação 1 If,comparação 2 if,2 ações variavel)
+
+            }
+            token=strtok(NULL,"->"); //+1
+        }
+        LInserir(i,ID,Nome,Valor);  //+6     
+	}
+```
