@@ -94,11 +94,11 @@
 	cont_mercados++;	
 	}
 ```  
-- Dentro do primeiro While iremos ler todo conteúdo do arquivo inserido (teste), no qual foi utilizado na tokenização o separador **->**.
+- Dentro do primeiro While iremos ler todo conteúdo do arquivo inserido (teste), no qual foi utilizado na tokenização o separador <strong>-></strong>.
 - A variável "abre_mercado" recebe cwd e é adicionado "\\\Mercaodos\\\" no final dessa string, tendo assim salva o endereço dentro da pasta Mercados.
 - O segundo While varre linha por linha do arquivo, sendo sempre o primeiro token o ID e o segundo token o nome do mercado, adicionando ambos em uma lista estática.
 - Ao final do primeiro While, é adicionado a variável em que contém o endereço da pasta Mercados (abre_mercado) o nome do mercado e o .txt, tendo assim o endereço do arquivo .txt dos dados mercado de cada um, sendo o nome desses arquivos o proprio nome do mercado.
-- Chamamos a função Recebe_Produto para todo nome de mercado recebido, no qual é usado na tokenização o mesmo separador **->**, tendo a ordem a cada linha percorrida o ID, nome do produto e o preço.
+- Chamamos a função Recebe_Produto para todo nome de mercado recebido, no qual é usado na tokenização o mesmo separador <strong>-></strong>, tendo a ordem a cada linha percorrida o ID, nome do produto e o preço.
 ##### Modelo arquivo mercado :
 ![mercado](https://user-images.githubusercontent.com/78819692/131039101-6015c913-34d5-4353-8431-84b1d131f9e9.png)
 
@@ -113,7 +113,7 @@
 <p>O usuário insere produto por produto, no qual será avaliado o de melhor preço entre os mercados cadastrados e adicionado em sua lista de compras (Lista dinâmica)<p>
 	
 - Procura pelo melhor preço:
-<p>A função Consulta_Menor_Preco é realizada usando o método **QuickShort**, no qual sempre após encontrando o produto de menor custo entre os mercados cadastrados, adiciona na lista de compras no fim do método<p>
+<p>A função Consulta_Menor_Preco é realizada usando o método <strong>QuickShort</strong>, no qual sempre após encontrando o produto de menor custo entre os mercados cadastrados, adiciona na lista de compras no fim do método<p>
 	
 :point_right: Opção 2:
 	
