@@ -134,44 +134,43 @@
 ```sh
  while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
 	{
-		char abre_mercado[MAX_TAM];
+	char abre_mercado[MAX_TAM];
         strcpy(abre_mercado,cwd);
         strcat(abre_mercado,"\\Mercados\\");
-		token=strtok(leitor,"->");
+	token=strtok(leitor,"->");
 	
         while(token!=NULL) 
         {        
-            char copia[MAX_TAM];
-            strcpy(copia,token);
-	
-            if(opera==0)
+            char copia[MAX_TAM];   
+            strcpy(copia,token);   //+2 todo loop
+	 	
+            if(opera==0)   
             { 
-            	int ID;              
-            	ID=atoi(copia);
-                m[cont_mercados].ID_mercado=ID;
-                opera++;
+            	int ID;                
+            	ID=atoi(copia);  
+                m[cont_mercados].ID_mercado=ID;  
+                opera++;  // Custo IF = +5 (Comparação,Declaração,3 ações variaveis) 
             }else
             {   
                 if(opera==1)
                 {
                 	strcpy(m[cont_mercados].nome_mercado,token);
-                	opera++;
+                	opera++; // Custo IF = +4 (Compação 1 If, Comparação 2 If, strcpy, soma)
 				}
 				else
 				{
 					opera=0;
-					break;
+					break;  //Custo Else +4 (Compação 1 If, Comparação 2 If, ação variavel, braak) 
 				}
             }
             token=strtok(NULL,"->");
         }
 		
-        strcat(abre_mercado,m[cont_mercados].nome_mercado);
+        strcat(abre_mercado,m[cont_mercados].nome_mercado); 
         strcat(abre_mercado,txt);
         Recebe_Produto(&m[cont_mercados],abre_mercado);
-		cont_mercados++;
-		
+	cont_mercados++;	
 	}
 ```
 	
-<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro <strong>While<strong> <p>
+<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no <strong>primeiro While<strong> N loops a serem processados. No segundo loop, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha). Calculando essas 3 entradas nesse while, vemos que na primeira entrada <p>
