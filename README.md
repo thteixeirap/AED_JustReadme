@@ -177,9 +177,11 @@
 		
         strcat(abre_mercado,m[cont_mercados].nome_mercado); 
         strcat(abre_mercado,txt);
-        Recebe_Produto(&m[cont_mercados],abre_mercado);
+        Recebe_Produto(&m[cont_mercados],abre_mercado); 
 	cont_mercados++;	
 	}//CUSTO FINAL A CADA MERCADO = 
 ```
 	
-<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados. No segundo loop, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando essas 3 entradas nesse while, vemos que na primeira entrada (Condição do primeiro IF) teremos o custo de +7, na segunda entrada ( Condição do 2 IF) o custo de +6 e na ultima entrada o custo de +6 somando assim um total de 19 de custo, que somado com +3 do strtok a cada loop, teremos 22 de custo nesse While <p>
+<p> Dentro da função Recebe_Mercado iremos fazer a leitura inicial dos mercados cadastrados. Analisando o trecho de maior custo dentro dessa função, na qual esta em função de N (números de mercados cadastrados) temos no primeiro While N loops a serem processados. No segundo loop, teremos 3 tokens por mercado cadastrado (ID,nome,"quebra-linha) ou seja, 3N. Calculando essas 3 entradas nesse while, vemos que na primeira entrada (Condição do primeiro IF) teremos o custo de +7, na segunda entrada ( Condição do 2 IF) o custo de +6 e na ultima entrada o custo de +6 somando assim um total de 19 de custo, que somado com +3 do strtok a cada loop, teremos 22 de custo nesse While. Portanto, somando o primeiro While que a cada loop tem custo de  <p>
+	
+	
