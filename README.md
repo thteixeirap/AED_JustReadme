@@ -130,47 +130,47 @@
 ## :wrench: Custo computacional
 	
 	
-```sh	
- while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))//Entra N vezes, N = número de mercados cadastrados
+```
+```
+ while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
 	{
-		char abre_mercado[MAX_TAM];//1
-        strcpy(abre_mercado,cwd);//+1
-        strcat(abre_mercado,"\\Mercados\\");//+1
-		token=strtok(leitor,"->");//+1
-	```
-	```
-        while(token!=NULL) //Cada linha mercado linha irá ter 2 tokens, ID e Nome// Portanto entra 2N vezes
+		char abre_mercado[MAX_TAM];
+        strcpy(abre_mercado,cwd);
+        strcat(abre_mercado,"\\Mercados\\");
+		token=strtok(leitor,"->");
+	
+        while(token!=NULL) 
         {        
-            char copia[MAX_TAM];//+1
-            strcpy(copia,token);//+1
-	```
-	```
-            if(opera==0)//+1  Primeiro pega o ID    //CUSTO TOTAL DESSE IF  = 7
+            char copia[MAX_TAM];
+            strcpy(copia,token);
+	
+            if(opera==0)
             { 
-            	int ID;   //+1             
-            	ID=atoi(copia);//+1
-                m[cont_mercados].ID_mercado=ID;//+1
-                opera++;//+1
+            	int ID;              
+            	ID=atoi(copia);
+                m[cont_mercados].ID_mercado=ID;
+                opera++;
             }else
             {   
-                if(opera==1)//Na segunda vez passa pelo primeiro if +1 pra depois fazer a comparação desse if = +2
+                if(opera==1)
                 {
-                	strcpy(m[cont_mercados].nome_mercado,token);//+1
-                	opera++;//+1
-				}//CUSTO TOTAL DESSE IF = 6
+                	strcpy(m[cont_mercados].nome_mercado,token);
+                	opera++;
+				}
 				else
-				{ //Pra chegar nesse faz 2 comparações anteriores (+2) e 4 declaraçoes de variaveis (+4)
-					opera=0;//+1
-					break;//+1
-				}//CUSTO TOTAL DESSE ELSE = 8
+				{
+					opera=0;
+					break;
+				}
             }
             token=strtok(NULL,"->");
         }
 		
-        strcat(abre_mercado,m[cont_mercados].nome_mercado);//+1
-        strcat(abre_mercado,txt);//+1
+        strcat(abre_mercado,m[cont_mercados].nome_mercado);
+        strcat(abre_mercado,txt);
         Recebe_Produto(&m[cont_mercados],abre_mercado);
-		cont_mercados++;//+1
+		cont_mercados++;
 		
 	}
+```
 ```
