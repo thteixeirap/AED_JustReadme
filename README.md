@@ -235,4 +235,4 @@ while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de prod
 todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo de 17.
 - Portanto, somando esses custos, temos o custo para a leitura dos arquivos separado de cada mercado de 17P*10 = <strong>170P</strong>
 	
-:warning: Observação: A variável P foi usada para facilitação matemática, cada mercada não necessariamente precisa ter a mesma quantidade de produtos.
+:warning: A variável P foi usada para facilitação matemática, cada mercada não necessariamente precisa ter a mesma quantidade de produtos.
