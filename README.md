@@ -23,7 +23,7 @@
  
 * [Custo computacional](#wrench-Custo-computacional)
  
-	* [Leitura inicial dos arquivos .txt cadastrados.](#Leitura-inicial-dos-arquivos-.txt-cadastrados)	
+	* [Leitura inicial dos arquivos .txt cadastrados](#Leitura-inicial-dos-arquivos-.txt-cadastrados)
  <!--te-->  
 
 
@@ -140,7 +140,7 @@
 	
 ## :wrench: Custo computacional
 	
- #### Leitura inicial dos arquivos .txt cadastrados.
+ #### Leitura inicial dos arquivos .txt cadastrados
 	
 :exclamation: Trecho de código pertencente a função `Recebe_Mercado`:	
 
