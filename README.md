@@ -234,4 +234,5 @@ while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de prod
 - Analisando o segundo While, temos que a cada produto cadastrado sera realizado 3 loops ( 3 loops pois entrará 3 tokens válidos -ID,nome e preço-). No primeiro loop( Condição válida do primeiro IF) teremos o custo de +5, no segundo loop (condição válida do segundo IF) teremos o custo de +6 e por último o else, tendo o custo de +6. Sendo assim, somamdo
 todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo de 17.
 - Portanto, somando esses custos, temos o custo para a leitura dos arquivos separado de cada mercado de 17P*10 = <strong>170P</strong>
+	
 :warning: Observação: A variável P foi usada para facilitação matemática, cada mercada não necessariamente precisa ter a mesma quantidade de produtos.
