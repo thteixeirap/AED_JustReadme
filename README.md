@@ -27,7 +27,7 @@
 
 ## :rocket: Como funciona
 
-<p> Na pasta Mercados criasse arquivos .txt tendo como o nome o proprio nome do mercadoe e, dentro desse arquivo, os dados dos diferentes tipos de produtos cadastrados, com o identificador, nome e preço do mesmo. Ao iniciar o programa inserisse um arquivo contendo as informações de todos esses mercados presente nessa pasta, no qual a partir da escolha do usuário o programa irá fazer uma busca e encontrar dentre esse mercados o produto com o menor preço e apresentar para esse usuário <p>
+<p> Na pasta Mercados criasse arquivos .txt tendo como o nome o proprio nome do mercado. Dentro desses arquivos estão os dados dos diferentes tipos de produtos cadastrados contendo o identificador, nome e preço do mesmo. Ao iniciar o programa o usuário inseri um arquivo contendo as informações de todos esses mercados presente nessa pasta, no qual a partir da escolha do usuário o programa irá fazer uma busca e encontrar dentre esse mercados o produto com o menor preço e apresenta-lo a partir de um arquivo criado<p>
 
 
 ## :computer: Pré-requisitos
