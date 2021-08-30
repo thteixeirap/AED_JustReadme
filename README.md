@@ -1,13 +1,10 @@
 :construction: EM CONSTRUÇÃO :construction: 
 
 
-<p align="center" 
-  
-</p>
-
+# Trabalho AEDS|CEFET  
 
 <p align="center"
-     Trabalho AEDS|CEFET  
+
 	
   Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos </p>
 	
