@@ -138,7 +138,7 @@
 	
 ## :wrench: Custo computacional
 	
- #### Leitura inicial dos arquivos mercados cadastrados.
+ #### Leitura inicial dos arquivos .txt cadastrados.
 	
 :exclamation: Trecho de código pertencente a função `Recebe_Mercado`:	
 
@@ -224,8 +224,13 @@ while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de prod
                 }//CUSTO PRA CHEGAR NESSE ELSE = +5 (strcpy, comparação 1 If,comparação 2 if,2 ações variavel)
 
             }
-            token=strtok(NULL,"->"); //+1
+            token=strtok(NULL,"->"); //+1 a cada loop
         }
         LInserir(i,ID,Nome,Valor);  //+6     
 	}
 ```
+	
+- Dentro da função Recebe_Produto iremos fazer a leitura dos arquivos de cada mercado cadastrado. Isolando o trecho de maior impacto no custo computacional, trecho esse que é  em função de P (sendo P o número de produtos cadastrado nesse mercado) temos o seguintes valores: No primeiro While iremos percorrer todo esse arquivo, no qual, isolando o segundo While interno a esse em um primeiro momento, temos o custo computacional de 10 ( 4 de ações singulares e 6 da função `LInserir`, função responsavel por adicionar o dados de cada produto na lista dinâmica de cada mercado).
+- Analisando o segundo While, temos que a cada produto cadastrado sera realizado 3 loops ( 3 loops pois entrará 3 tokens válidos -ID,nome e preço-). No primeiro loop( Condição válida do primeiro IF) teremos o custo de +5, no segundo loop (condição válida do segundo IF) teremos o custo de +6 e por último o else, tendo o custo de +6. Sendo assim, somamdo
+todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo de 17.
+- Portanto, somando esses custos, temos o custo para a leitura dos arquivos separado de cada mercado de 17P*10P = <strong>170P</strong>
