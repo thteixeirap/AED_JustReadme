@@ -1,6 +1,6 @@
-<p>:construction: EM CONSTRUÇÃO :construction: <p>
+<p align="center":construction: EM CONSTRUÇÃO :construction: 
 
-  <p>Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos <p>
+  Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos </p>
 	
 # Trabalho AEDS|CEFET
 <!--ts-->
