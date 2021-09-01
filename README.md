@@ -296,4 +296,7 @@ A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após
 	
 
 `Ordena_Crescente`:  Utilizando da literatura, sabendo que essa função utiliza-se do método de ordenação <strong>QuickShort</strong>, temos como caso médio <img src="https://user-images.githubusercontent.com/78819692/131732133-5f09ebb2-607b-4059-a8f0-746f6ac8501f.png" width="70"> matematicamente provada como demostrado no site [khanacademy](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/analysis-of-quicksort)  
- $`a^2+b^2=c^2`$.
+	
+ ```math
+a^2+b^2=c^2
+```
