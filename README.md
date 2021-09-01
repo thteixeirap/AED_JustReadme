@@ -7,9 +7,9 @@
   Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos 
 </div>
 
-<h2 align="center">
-# Trabalho AEDS|CEFET 
-</h2>
+<h1 align="center">
+ Trabalho AEDS|CEFET 
+</h1>
 
 <!--ts-->
 * [Sobre o trabalho](#Sobre-o-trabalho)
