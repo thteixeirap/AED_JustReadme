@@ -35,7 +35,7 @@
 
 2. Desafios a serem cumpridos:
  
- - [x] Lista dinâmica
+ :white_check_mark: Lista dinâmica
  - [x] Lista estática
  - [x] Ordenação: QuickShort 
 
