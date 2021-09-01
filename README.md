@@ -15,7 +15,7 @@
 <h1></h1>
 
 <!--ts-->
-* [Sobre o trabalho](#Sobre-o-trabalho)
+* [Sobre](#Sobre)
 
 * [Como funciona](#rockey-Como-funciona)
 
@@ -33,7 +33,7 @@
  <!--te-->  
 
 
-## Sobre o trabalho
+## Sobre 
 
 - [Falar sobre sites de buscas de melhores preços | Importância desses sites]
 
