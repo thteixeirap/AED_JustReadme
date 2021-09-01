@@ -3,13 +3,15 @@
 
 
 
-<div align="center">	
-  Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos 
-</div>
+
 
 <h1 align="center">
  Trabalho AEDS|CEFET 
 </h1>
+
+<div align="center">	
+  Esse projeto é uma aplicação que seleciona a partir dos dados dos produtos dos mercados (varejos em geral) cadastrados os melhores preços escolhidos pelo usuário, imprimindo e criando um arquivo .txt dos resultados obtidos 
+</div>
 
 <!--ts-->
 * [Sobre o trabalho](#Sobre-o-trabalho)
