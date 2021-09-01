@@ -35,7 +35,8 @@
 
 ## Sobre 
 
-- [Falar sobre sites de buscas de melhores preços | Importância desses sites]
+- Nos dias atuais a necessidade de otimização do tempo tem sido primordial devido a rotina cada vez mais acelerada. Devido à essa falta de tempo, muitas das vezes, as pessoas não têm a possibilidade de comparar preços, deixando de economizar um dinheiro que parece pouco em um primeiro momento, mas que ao longo do tempo poderá fzer falta.
+Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite a partir dos interesses de compra do usuário, a busca dos produtos de melhores preço, ecomizando tanto o tempo quanto o dinheiro desse usuário. Diante desse fato, e seguindo alguns sistemas já criado como [Zoom](https://www.zoom.com.br/) e [Buscapé](https://www.buscape.com.br/)
 
 - Desafios a serem cumpridos:
  
