@@ -261,10 +261,11 @@ todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo 
 
 #### Opção 1
 	
+	
+ Ao escolher a opção (DIGITAR PRODUTOS DA LISTA) a função chamada Consulta_Menor_Preco possui dois trechos de código no qual define seu custo computacional. O primeiro trecho refere-se a estrutura While no qual irá procurar em cada mercado o produto selecionado e adiciona-lo a uma lista estática.
+
 :exclamation: Trecho de código pertencente a função `Consulta_Menor_Preco` :
 	
-- Ao escolher a opção (DIGITAR PRODUTOS DA LISTA) a função chamada Consulta_Menor_Preco possui dois trechos de código no qual define seu custo computacional. O primeiro trecho refere-se a estrutura While no qual irá procurar em cada mercado o produto selecionado e adiciona-lo a uma lista estática.
-
 ```sh
 	
    while(cont_linhas<n_linhas) // Entrará N vezes, N = número de mercados
