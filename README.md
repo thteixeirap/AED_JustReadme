@@ -30,6 +30,8 @@
 * [Custo computacional](#wrench-Custo-computacional)
  
 	* [Leitura inicial dos arquivos](#Leitura-inicial-dos-arquivos-txt-cadastrados)
+
+	* [Opção 1](#Opção-1)
  <!--te-->  
 
 
@@ -269,20 +271,21 @@ todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo 
 	
 ```sh
 	
-   while(cont_linhas<n_linhas) // Entrará N vezes, N = número de mercados
+   while(cont_linhas<n_linhas) //Entrará N vezes, N = número de mercados
     {
-        rider=m[cont_linhas].first->prox;//+1
-        while(rider!=NULL)//Irá percorrer todo a lista de produtos do mercado até encontrar 
+        rider=m[cont_linhas].first->prox;  //+1
+        while(rider!=NULL)  //Irá percorrer todo a lista de produtos do mercado até encontrar 
         {
             if(strcmp(rider->p.nome_produto,nome)==0) //+1
             {                
-                Insere_Produto(&l,rider->p.valor,m[cont_linhas].ID_mercado,rider->p.ID_produto,rider->p.nome_produto,m[cont_linhas].nome_mercado);//6
+                Insere_Produto(&l,rider->p.valor,m[cont_linhas].ID_mercado,rider->p.ID_produto,rider->p.nome_produto,m[cont_linhas].nome_mercado); //6
                 break;
             }
-            rider=rider->prox;//+1
+            rider=rider->prox;  //+1
         }
-        cont_linhas++;
+        cont_linhas++; //+1
     }
 ```
 	
-	
+- No primeiro While irá percorrer N vezes, sendo N o número de mercados cadastrados. Ignorando o segundo While (interno a esse), temos que a cada loop dessa primeiro While teremos o custo de 2 a cada loop.
+- Já no segundo While (interno) irá percorrer por todos produtos cadastrados ate encontrar o produto selecionado pelo usuário. <strong> Para fins de facilitação matemática iremos considerar a variável P para a quantidade de produtos em todos os mercados e que escontraremos esse produto sempre no meio dessa lista, ou seja, P/2 </strong>.
