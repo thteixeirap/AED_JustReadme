@@ -258,7 +258,7 @@ todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo 
 - Portanto, somando esses custos, temos o custo para a leitura dos arquivos separado de cada mercado de (17+10)*P = <strong>27P</strong>
 	
 :warning: A variável P foi usada em todos os mercados para facilitação matemática, cada mercado não necessariamente precisa ter a mesma quantidade de produtos.
-
+<h1></h1>
 #### Opção 1
 	
 	
