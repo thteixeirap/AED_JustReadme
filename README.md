@@ -11,6 +11,8 @@
 # Trabalho AEDS|CEFET 
 
 <!--ts-->
+* [Sobre o trabalho](#Sobre-o-trabalho)
+
 * [Como funciona](#rockey-Como-funciona)
 
 * [Pré requisitos](#computer-Pré-requisitos)
@@ -25,6 +27,17 @@
  
 	* [Leitura inicial dos arquivos](#Leitura-inicial-dos-arquivos-txt-cadastrados)
  <!--te-->  
+
+
+## Sobre o trabalho
+
+1. [Falar sobre sites de buscas de melhores preços | Importância desses sites]
+
+2. Desafios a serem cumpridos:
+ 
+ - [x] Lista dinâmica
+ - [x] Lista estática
+ - [x] Ordenação: QuickShort 
 
 
 ## :rocket: Como funciona
