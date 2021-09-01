@@ -290,3 +290,8 @@ todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo 
 - No primeiro While irá percorrer N vezes, sendo N o número de mercados cadastrados. Ignorando o segundo While (interno a esse), temos que a cada loop dessa primeiro While teremos o custo de +2 a cada loop.
 - Já no segundo While (interno) irá percorrer por todos produtos cadastrados ate encontrar o produto selecionado pelo usuário. <strong> Para fins de facilitação matemática iremos considerar a variável P para a quantidade de produtos em todos os mercados e que encontraremos esse produto sempre no meio dessa lista, ou seja, P/2 </strong>. Sendo assim, esse While irá percorrer P/2 vezes e, a cada loop, irá realizar +2 de custo e, uma vez o IF sendo validado, +6 de custo referente a função `Insere_Produto`.
 - Portanto, o custo geral desse While será de N(2+2P/2+6) = 2N + PN + 6N = <strong>8N + PN</strong>.
+
+\
+\
+\
+A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após o While comentado, em que assim que adicionado dentro da lista as informações do produto (ID,nome,preço) de cada mercado no qual ele se encontra, é chamado a função `Ordena_Crescente`, em que utilizará do modelo de ordenação <strong>QuickShort</strong> para ordenar o produto em ordem de preço crescente dentro dessa lista
