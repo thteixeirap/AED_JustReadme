@@ -34,9 +34,9 @@
 
 ## Sobre o trabalho
 
-1. [Falar sobre sites de buscas de melhores preços | Importância desses sites]
+- [Falar sobre sites de buscas de melhores preços | Importância desses sites]
 
-2. Desafios a serem cumpridos:
+- Desafios a serem cumpridos:
  
  :white_check_mark: Lista dinâmica 
  
