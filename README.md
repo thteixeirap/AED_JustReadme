@@ -292,6 +292,7 @@ todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo 
 - Portanto, o custo geral desse While será de N(2+2P/2+6) = 2N + PN + 6N = <strong>8N + PN</strong>.
 
 \
-A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após o While comentado, em que assim que adicionado dentro da lista as informações do produto (ID,nome,preço) de cada mercado no qual ele se encontra, é chamado a função `Ordena_Crescente`, em que utilizará do modelo de ordenação <strong>QuickShort</strong> para ordenar o produto em ordem de preço crescente dentro dessa lista
+A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após o While comentado, em que assim que adicionado dentro da lista as informações do produto (ID,nome,preço) de cada mercado no qual ele se encontra, é chamado a função `Ordena_Crescente`, em que utilizará do modelo de ordenação <strong>QuickShort</strong> para ordenar o produto em ordem de preço crescente dentro dessa lista 
+	
 
- `Ordena_Crescente`: Utilizando da literatura, matematicamente provada no site [khanacademy] (https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/analysis-of-quicksort) 
+Ordena_Crescente:  Utilizando da literatura, sabendo que essa função utiliza-se do método de ordenação <strong>QuickShort</strong> matematicamente provada como demostrado no site [Zoom](https://www.zoom.com.br), temos como caso médio 
