@@ -38,7 +38,7 @@
   Nos dias atuais a necessidade de otimização do tempo tem sido primordial devido a rotina cada vez mais acelerada. Devido à essa falta de tempo, muitas das vezes, as pessoas não têm a possibilidade de comparar preços, deixando de economizar um dinheiro que parece pouco em um primeiro momento, mas que ao longo do tempo poderá fazer falta.
 Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite a partir dos interesses de compra do usuário, a busca dos produtos de melhores preço, ecomizando tanto o tempo quanto o dinheiro desse usuário. Diante desse fato, e seguindo alguns sistemas já criado como presente nos sites [Zoom](https://www.zoom.com.br) e [Buscapé](https://www.buscape.com.br) nossa aplicação tem como objetivo buscar essa facilitação para esse usuário.<p>
 
- Desafios a serem cumpridos:
+ - Desafios a serem cumpridos:
  
  :white_check_mark: Lista dinâmica 
  
@@ -257,4 +257,30 @@ while(fgets(leitor,MAX_TAM,f_Mercado)!=NULL) // Le P vezes ( P = qtidade de prod
 todos esses loops que irá acontecer a cada produto cadastrado, teremos o custo de 17.
 - Portanto, somando esses custos, temos o custo para a leitura dos arquivos separado de cada mercado de (17+10)*P = <strong>27P</strong>
 	
-:warning: A variável P foi usada para facilitação matemática, cada mercado não necessariamente precisa ter a mesma quantidade de produtos.
+:warning: A variável P foi usada em todos os mercados para facilitação matemática, cada mercado não necessariamente precisa ter a mesma quantidade de produtos.
+
+#### Opção 1
+	
+:exclamation: Trecho de código pertencente a função `Consulta_Menor_Preco` :
+	
+- Ao escolher a opção (DIGITAR PRODUTOS DA LISTA) a função chamada Consulta_Menor_Preco possui dois trechos de código no qual define seu custo computacional. O primeiro trecho refere-se a estrutura While no qual irá procurar em cada mercado o produto selecionado e adiciona-lo a uma lista estática.
+
+```sh
+	
+   while(cont_linhas<n_linhas) // Entrará N vezes, N = número de mercados
+    {
+        rider=m[cont_linhas].first->prox;//+1
+        while(rider!=NULL)//Irá percorrer todo a lista de produtos do mercado até encontrar 
+        {
+            if(strcmp(rider->p.nome_produto,nome)==0) //+1
+            {                
+                Insere_Produto(&l,rider->p.valor,m[cont_linhas].ID_mercado,rider->p.ID_produto,rider->p.nome_produto,m[cont_linhas].nome_mercado);//6
+                break;
+            }
+            rider=rider->prox;//+1
+        }
+        cont_linhas++;
+    }
+```
+	
+	
