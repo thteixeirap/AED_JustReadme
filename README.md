@@ -164,7 +164,7 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 	
 #### Leitura inicial dos arquivos .txt cadastrados
 	
-:exclamation: Trecho de código pertencente a função `Recebe_Mercado`:	
+> :exclamation: Trecho de código pertencente a função `Recebe_Mercado`:	
 
 ```sh
  while((fgets(leitor,MAX_TAM,f_Mercados)!=NULL))
