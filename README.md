@@ -60,9 +60,8 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 	
 
-![2021-09-07 10-32-13_Trim](https://user-images.githubusercontent.com/78819692/132354141-b635d69c-2681-4022-98f2-12522b968b64.gif)
 
-<img src="https://user-images.githubusercontent.com/78819692/132354141-b635d69c-2681-4022-98f2-12522b968b64.gif" width="400">
+<img src="https://user-images.githubusercontent.com/78819692/132354141-b635d69c-2681-4022-98f2-12522b968b64.gif" width="800">
 	
 	
 <p>[Informar modo de execução] <p>
