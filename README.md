@@ -60,8 +60,11 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 ## :computer: Pré-requisitos
 	
 > Programa feito em C 
+	
 > IDE utilizado : Visual Studio Code 
+	
 > Sistema operacional: Windows 10
+	
 
 - Execcução:
 
