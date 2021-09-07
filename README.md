@@ -60,7 +60,7 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 	
 
-https://user-images.githubusercontent.com/78819692/132353887-9600ee14-0e81-4f64-bfc9-f5f289b160b8.mp4
+![2021-09-07 10-32-13_Trim](https://user-images.githubusercontent.com/78819692/132354141-b635d69c-2681-4022-98f2-12522b968b64.gif)
 
 
 	
