@@ -58,6 +58,13 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 ## :computer: Pré-requisitos
 
+	
+
+https://user-images.githubusercontent.com/78819692/132353887-9600ee14-0e81-4f64-bfc9-f5f289b160b8.mp4
+
+
+	
+	
 <p>[Informar modo de execução] <p>
 
 ## :gear: Execução dos testes
