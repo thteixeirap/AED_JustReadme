@@ -310,7 +310,7 @@ A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após
 	
 #### Opção 2
 	
-	Na opção 2_(INSERIR ARQUIVO COM A LISTA) se difere da opção 1 pois os produtos a serem inseridos pelo usuário será por meio de um arquivo informando os produtos. Portanto, será feito uma tokenização desse arquivo para que assim chamar a função `Consulta_Menor_Preco` estudada na opção 1
+Na opção 2_(INSERIR ARQUIVO COM A LISTA) se difere da opção 1 pois os produtos a serem inseridos pelo usuário será por meio de um arquivo informando os produtos. Portanto, será feito uma tokenização desse arquivo para que assim chamar a função `Consulta_Menor_Preco` estudada na opção 1
 	
 > :exclamation: Trecho de código pertencente a função `Abre_Lista_De_Compras` :
 	
@@ -335,4 +335,4 @@ A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após
 ```
 	
 - No trecho de maior custo da função, o While irá ser responsável pela tokenização da lista de compras (usando o serapador <strong>-></strong>) e a partir disso chamar a função Consulta_Menor_Preco para cada produto. No While mais interno, a cada produto na lista ele entrará 2 vezes, no qual a cada vez realizado o loop o custo será de +4 + o custo da função Consulta_Menor_Preço.
-- Portanto, o custo dessa função será similar ao da opção 1, contendo o acréscimo no custo computacional referente a essa tokenização (+27para cada produto na lista).
+- Portanto, o custo dessa função será similar ao da opção 1, contendo o acréscimo no custo computacional referente a essa tokenização (+27 para cada produto na lista).
