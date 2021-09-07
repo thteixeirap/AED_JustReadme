@@ -59,16 +59,16 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 ## :computer: Pré-requisitos
 	
-:black_circle: Programa feito em C 
+- Programa feito utilizando linguaguem C 
 	
-:black_circle: IDE utilizado : Visual Studio Code 
+- IDE utilizado : Visual Studio Code 
 	
-:black_circle: Sistema operacional: Windows 10
+- Sistema operacional: Windows 10
 	
 
-- Execcução:
+- Execcução: Foi criado um arquivo bat (compila.bat) para compilar o arquivo e não ser necessário abrir prompt.
 
-
+> Criando o arquivo executável a partir do compila.bat:
 	
 ![WhatsApp Video 2021-09-07 at 12 57 28 PM](https://user-images.githubusercontent.com/78819692/132376065-cb3b814f-343b-4397-a613-1cae7eaf40bc.gif)
 
