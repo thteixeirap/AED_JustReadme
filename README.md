@@ -45,11 +45,11 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
  - Desafios a serem cumpridos:
  
- :white_check_mark: Lista dinâmica 
+- Lista dinâmica 
  
- :white_check_mark: Lista estática
+- Lista estática
  
- :white_check_mark: Ordenação: QuickShort 
+- Ordenação: QuickShort 
 
 
 ## :rocket: Como funciona
