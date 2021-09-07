@@ -308,6 +308,9 @@ A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após
 	> K a quantidade de produtos escolhidos pelo usuário.
 	
 	
+<h1></h1>
+	
+	
 #### Opção 2
 	
 Na opção 2_(INSERIR ARQUIVO COM A LISTA) se difere da opção 1 pois os produtos a serem inseridos pelo usuário será por meio de um arquivo informando os produtos. Portanto, será feito uma tokenização desse arquivo para que assim chamar a função `Consulta_Menor_Preco` estudada na opção 1.
