@@ -336,4 +336,4 @@ Na opção 2_(INSERIR ARQUIVO COM A LISTA) se difere da opção 1 pois os produt
 	
 - No trecho de maior custo da função, o While irá ser responsável pela tokenização da lista de compras (usando o serapador <strong>-></strong>) e a partir disso chamar a função Consulta_Menor_Preco para cada produto. No While mais interno, a cada produto na lista ele entrará 2 vezes, no qual a cada vez realizado o loop o custo será de +4 + o custo da função Consulta_Menor_Preço.
 - Portanto, o custo dessa função será similar ao da opção 1, contendo o acréscimo no custo computacional referente a essa tokenização (+27 para cada produto na lista). Sendo assim 
-<img src="https://user-images.githubusercontent.com/78819692/132346310-54da7b5a-8b3e-4cf5-b018-34597389d542.png" width="100"
+<img src="https://user-images.githubusercontent.com/78819692/132346310-54da7b5a-8b3e-4cf5-b018-34597389d542.png" width="100">
