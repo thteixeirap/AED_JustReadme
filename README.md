@@ -59,10 +59,7 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 ## :computer: Pré-requisitos
 
-	
-
-
-<img src="https://user-images.githubusercontent.com/78819692/132356104-b85921ed-4d17-42d5-b6aa-806a82c283ce.gif" width="800">
+![2021-09-07 10-32-13_Trim](https://user-images.githubusercontent.com/78819692/132356323-5fb5f2f5-8e87-4d07-a44c-3913a2382a3e.gif)
 	
 	
 <p>[Informar modo de execução] <p>
