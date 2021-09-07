@@ -32,6 +32,8 @@
 	* [Leitura inicial dos arquivos](#Leitura-inicial-dos-arquivos-txt-cadastrados)
 
 	* [Opção 1](#Opção-1)
+	
+	* [Opção 2](#Opção-2)
  <!--te-->  
 
 
@@ -304,4 +306,8 @@ A segunda parte do trecho dentro da função  Consulta_Menor_Preco é logo após
 	> P a quantidade de produtos cadastrados em cada mercado;
 	
 	> K a quantidade de produtos escolhidos pelo usuário.
+	
+	
+#### Opção 2
+	
 	
