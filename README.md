@@ -59,11 +59,17 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 ## :computer: Pré-requisitos
 	
+> Programa feito em C 
+> IDE utilizado : Visual Studio Code 
+> Sistema operacional: Windows 10
 
+- Execcução:
+
+
+	
 ![WhatsApp Video 2021-09-07 at 12 57 28 PM](https://user-images.githubusercontent.com/78819692/132376065-cb3b814f-343b-4397-a613-1cae7eaf40bc.gif)
 
 	
-<p>[Informar modo de execução]
 
 
 ## :gear: Execução dos testes
