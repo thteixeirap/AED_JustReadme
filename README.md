@@ -59,15 +59,14 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 ## :computer: Pré-requisitos
 
- <img src="https://user-images.githubusercontent.com/78819692/132356323-5fb5f2f5-8e87-4d07-a44c-3913a2382a3e.gif" width="100"> 	
-	
+![WhatsApp Video 2021-09-07 at 12 57 28 PM](https://user-images.githubusercontent.com/78819692/132376065-cb3b814f-343b-4397-a613-1cae7eaf40bc.gif)
+
 <p>[Informar modo de execução]
 
 
 ## :gear: Execução dos testes
 <p>Execução do programa a partir do arquivo 'teste' presente no repositório<p>
 
-![WhatsApp Video 2021-09-07 at 12 57 28 PM](https://user-images.githubusercontent.com/78819692/132376065-cb3b814f-343b-4397-a613-1cae7eaf40bc.gif)
 
 <p>Após a abertura do arquivo .txt no qual contém os ID's e nomes dos mercados cadastrados, o programa realiza a tokenização dos nomes de cada mercado presente, (no qual contém um arquivo .txt para cada um com os dados dos produto) e faz o encaminhamento para a pasta Mercados e realiza a leitura desses arquivos.<p>
 
