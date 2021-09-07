@@ -346,3 +346,7 @@ Na opção 2_(INSERIR ARQUIVO COM A LISTA) se difere da opção 1 pois os produt
 	> P a quantidade de produtos cadastrados em cada mercado;
 	
 	> K a quantidade de produtos escolhidos pelo usuário.
+
+	
+<h1></h1>
+	
