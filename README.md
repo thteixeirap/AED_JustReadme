@@ -441,7 +441,7 @@ Na opção 3_(GERAR ARQUIVO COM OS MELHORES PRECOS) teremos a função ´Gera_Gu
 	
 <h1></h1>
 	
-#### Autores:
+#### Autores
 	
 - Lucas Ribeiro Silva
 - João Pedro de Almeida Campos 
