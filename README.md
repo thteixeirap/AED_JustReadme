@@ -34,7 +34,7 @@
 
 	* [Custo total](#Custo-total)
 	
-* [Autores](#[Autores)
+* [Autores](#Autores)
 	
  <!--te-->  
 
