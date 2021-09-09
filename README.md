@@ -378,6 +378,7 @@ Na opção 3_(GERAR ARQUIVO COM OS MELHORES PRECOS) teremos a função ´Gera_Gu
 
 	
 ´´´sh	
+	
     while(cont_produtos<l->tamanho) // entrara P vezes, P=qntidade de produtos na lista de compras
     {  
         char gera_linha[MAX_TAM]=""; //+1
@@ -421,7 +422,8 @@ Na opção 3_(GERAR ARQUIVO COM OS MELHORES PRECOS) teremos a função ´Gera_Gu
         strcat(gera_linha,"\n");
 		fputs(gera_linha,arquivo);
         cont_produtos++;
-    }		
+    }	
+	
 ´´´
  
 - No trecho de maior impacto em relação ao custo computacional dentro da função, teremos esse While no qual tera seus loops PE vezes, sendo PE = Produtos Escolhidos. Sem contar com o While interno, temos que o custo dele será de +7 a cada loop.
