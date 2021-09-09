@@ -1,10 +1,4 @@
 
-:construction: EM CONSTRUÇÃO :construction: 
-
-
-
-
-
 
 <h1 align="center"> 
  Trabalho AEDS|CEFET 
