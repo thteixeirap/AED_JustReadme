@@ -426,8 +426,8 @@ Na opção 3_(GERAR ARQUIVO COM OS MELHORES PRECOS) teremos a função ´Gera_Gu
 	
 ```
  
-- No trecho de maior impacto em relação ao custo computacional dentro da função, teremos esse While no qual tera seus loops PE vezes, sendo PE = Produtos Escolhidos. Sem contar com o While interno, temos que o custo dele será de +7 a cada loop.
+- No trecho de maior impacto em relação ao custo computacional dentro da função, teremos esse While no qual tera seus loops K vezes, sendo K = Produtos Escolhidos. Sem contar com o While interno, temos que o custo dele será de +7 a cada loop.
 
 - No Segundo While, interno ao primeiro, temos que será realizados 3 vezes seu loop. No primeiro loop, atendendo ao primeiro if, temos +7. No segundo loop, atendendo a condição do segundo if, teremos o custo de +27. No terceiro loop teremos o valor de +8. 
 
-- Portanto, somando os valores desse While por comppleto, teremos o custo de 42, sendo assim portanto <strong>42PE</strong>, PE= Produtos escolhidos.
+- Portanto, somando os valores desse While por comppleto, teremos o custo de 42, sendo assim portanto <strong>42K</strong>, K= Produtos escolhidos.
