@@ -37,6 +37,9 @@
 	* [Opção 2](#Opção-2)
 
 	* [Opção 3](#Opção-3)
+
+	* [Custo total](#Custo-total)
+	
  <!--te-->  
 
 
@@ -431,3 +434,9 @@ Na opção 3_(GERAR ARQUIVO COM OS MELHORES PRECOS) teremos a função ´Gera_Gu
 - No Segundo While, interno ao primeiro, temos que será realizados 3 vezes seu loop. No primeiro loop, atendendo ao primeiro if, temos +7. No segundo loop, atendendo a condição do segundo if, teremos o custo de +27. No terceiro loop teremos o valor de +8. 
 
 - Portanto, somando os valores desse While por comppleto, teremos o custo de 42, sendo assim portanto <strong>42K</strong>, K= Produtos escolhidos.
+	
+<h1></h1>
+	
+#### Custo total
+	
+- Calculando cada função que irá fazer parte desse programa e, utilizando de uma exemplo no qual o usuário irá utilizar da opção 2, em que ira inserir uma lista de compras, teremos o custo computacional de: 
