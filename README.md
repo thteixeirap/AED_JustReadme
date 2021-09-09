@@ -440,3 +440,6 @@ Na opção 3_(GERAR ARQUIVO COM OS MELHORES PRECOS) teremos a função ´Gera_Gu
 #### Custo total
 	
 - Calculando cada função que irá fazer parte desse programa e, utilizando de uma exemplo no qual o usuário irá utilizar da opção 2, em que ira inserir uma lista de compras, teremos o custo computacional de: 
+	
+	![equaçãog](https://user-images.githubusercontent.com/78819692/132768951-074a0a18-a6b9-4d8c-86ef-29c35b217782.png)
+
