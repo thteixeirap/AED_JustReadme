@@ -6,7 +6,7 @@
 
 
 
-<h1 align="center">
+<h1 align="center"> 
  Trabalho AEDS|CEFET 
 </h1>
 
@@ -35,6 +35,8 @@
 	* [Opção 1](#Opção-1)
 	
 	* [Opção 2](#Opção-2)
+
+	* [Opção 3](#Opção-3)
  <!--te-->  
 
 
@@ -68,7 +70,7 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 
 - Execução: Foi criado um arquivo bat (compila.bat) para compilar o arquivo e não ser necessário abrir prompt.
 
-> :grey_exclamation: Criando o arquivo executável a partir do compila.bat:
+> :grey_exclamation: Criando o arquivo executável a partir do compila.bat :
 	
 ![WhatsApp Video 2021-09-07 at 12 57 28 PM](https://user-images.githubusercontent.com/78819692/132376065-cb3b814f-343b-4397-a613-1cae7eaf40bc.gif)
 
@@ -170,7 +172,11 @@ Portanto, avaliando essa necessidade, surge a proposta de um sistema que permite
 :point_right: Opção 3:
 	
 <p>Após inserir os produtos escolhidos, seja usando a opção 1 ou a opção 2, é criado um arquivo .txt (Lista de Compras.txt) na área de trabalho contendo em qual mercado cada produto se encontra com o menor preço e o ranking dos mercados melhor avaliado de acordo com o preço dos itens selecionados.<p>
-	
+<p> O ranking está programado a partir da quantidade de mercados cadastrados. 
+ Caso esse número for menor que 15, iremos ter o ranking dos 5 melhores mercados.
+ Caso esse número for igual ou maior que 15, iremos ter o ranking de 40% do número dos mercados cadastrados.
+ Caso tiver mais de 40 mercados cadastrados, iremos ter a quantidade fixa de 10 mercados avaliados no ranking.</p>
+
 - Exemplo da Lista de Compras gerado a partir da Lista inserida na opção 2:
 	
 
@@ -364,3 +370,4 @@ Na opção 2_(INSERIR ARQUIVO COM A LISTA) se difere da opção 1 pois os produt
 	
 <h1></h1>
 	
+#### Opção 3
